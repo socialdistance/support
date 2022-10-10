@@ -1,5 +1,5 @@
 // TypeScript model
-import type { BaseStructure } from "../models/baseStructure"
+import type { BaseStructure } from "../models/baseStructure.js"
 
 class ResultIterator<A extends undefined | BaseStructure.INode, B extends boolean> implements BaseStructure.IResultIterator{
 	value: A

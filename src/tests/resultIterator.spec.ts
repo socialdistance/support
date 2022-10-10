@@ -1,8 +1,8 @@
 // TypeScript model
-import type { BaseStructure } from "../models/baseStructure"
+import type { BaseStructure } from "../models/baseStructure.js"
 // Module
-import ResultIterator from "../modules/resultIterator"
-import Node from "../modules/node"
+import ResultIterator from "../modules/resultIterator.js"
+import Node from "../modules/node.js"
 
 describe("examination class ResultIterator:", () => {
 	const res1: BaseStructure.IResultIterator = new ResultIterator(undefined, true)

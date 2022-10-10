@@ -1,7 +1,7 @@
 // TypeScript model
-import type { BaseStructure } from "../models/baseStructure"
+import type { BaseStructure } from "../models/baseStructure.js"
 // Module
-import ResultIterator from "./resultIterator"
+import ResultIterator from "./resultIterator.js"
 
 class Iterator implements BaseStructure.IIterator{
 	currentValue: BaseStructure.INode | null

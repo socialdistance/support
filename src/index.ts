@@ -1,5 +1,5 @@
 // Module
-import LinkedList from "./modules/linkedList"
+import LinkedList from "./modules/linkedList.js"
 
 abstract class MainApp{
 	static start() {

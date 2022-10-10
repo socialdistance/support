@@ -1,7 +1,7 @@
 // Module
-import Node from "../modules/node"
+import Node from "../modules/node.js"
 // TypeScript types
-import type { BaseStructure } from "../models/baseStructure"
+import type { BaseStructure } from "../models/baseStructure.js"
 
 describe("examination class Node:", () => {
 	let newNode: BaseStructure.INode

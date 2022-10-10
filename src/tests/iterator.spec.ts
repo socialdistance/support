@@ -1,8 +1,8 @@
 // TypeScript models
 import type { BaseStructure } from "../models/baseStructure.js"
 // Module
-import Iterator from "../modules/iterator"
-import LinkedList from "../modules/linkedList"
+import Iterator from "../modules/iterator.js"
+import LinkedList from "../modules/linkedList.js"
 
 describe("examination class Iterator:", () => {
 	let iterator: BaseStructure.IIterator

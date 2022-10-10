@@ -1,9 +1,9 @@
 // TypeScript models
-import type { BaseStructure } from "../models/baseStructure"
+import type { BaseStructure } from "../models/baseStructure.js"
 // Module
-import LinkedList from "../modules/linkedList"
-import Node from "../modules/node"
-import Iterator from "../modules/iterator"
+import LinkedList from "../modules/linkedList.js"
+import Node from "../modules/node.js"
+import Iterator from "../modules/iterator.js"
 
 describe("examination class LinkedList:", () => {
 	const node1 = new Node(400)

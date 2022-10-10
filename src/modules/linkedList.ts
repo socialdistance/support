@@ -1,8 +1,8 @@
 // TypeScript model
-import type { BaseStructure } from "../models/baseStructure"
+import type { BaseStructure } from "../models/baseStructure.js"
 // Module
-import Node from "./node"
-import Iterator from "./iterator"
+import Node from "./node.js"
+import Iterator from "./iterator.js"
 
 class LinkedList implements BaseStructure.ILinkedList{
 	first: null | BaseStructure.INode

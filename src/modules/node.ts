@@ -1,5 +1,5 @@
 // TypeScript model
-import type { BaseStructure } from "../models/baseStructure"
+import type { BaseStructure } from "../models/baseStructure.js"
 
 class Node<N> implements BaseStructure.INode<N> {
 	next: null | BaseStructure.INode
